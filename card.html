@@ -8,54 +8,103 @@
   </head>
   <body>
   	<div>
-  		<h2>Найдём номера под ваши пожелания</h2>
-  		<h3>прибытие</h3>
-  		<input type="date" name="calendar" value="2012-06-01"
-	    max="2012-06-04" min="2012-05-29">
-	    <h3>выезд</h3>
+  		<form>
+	  		<h2>Найдём номера под ваши пожелания</h2>
+	  		<h3>прибытие</h3>
 	  		<input type="date" name="calendar" value="2012-06-01"
-	    max="2012-06-04" min="2012-05-29">
-	    <h3>гости</h3>
-	    <select id="cities">
-		   <option value="Naples">Naples</option>
-		   <option value="London">London</option>
-		   <option value="Berlin">Berlin</option>
-		   <option value="New York">New York</option>
-		   <option value="Frattamaggiore">Frattamaggiore</option>
-		</select>
-    	<input type="submit" value="Подобрать номер">
+		    max="2012-06-04" min="2012-05-29">
+		    <h3>выезд</h3>
+		  		<input type="date" name="calendar" value="2012-06-01"
+		    max="2012-06-04" min="2012-05-29">
+		    <h3>гости</h3>
+		    <select id="cities">
+			   <option value="Naples">Naples</option>
+			   <option value="London">London</option>
+			   <option value="Berlin">Berlin</option>
+			   <option value="New York">New York</option>
+			   <option value="Frattamaggiore">Frattamaggiore</option>
+			</select>
+	    	<button>ПОДОБРАТЬ НОМЕР</button>
+	    </form>
   	</div>
 
   	<div>
-  		<form action="handler.php">
+  		<form >
 	  		<h2>Регистрицая аккаунта</h2>
-	  		<input type="" name="">
-	  		<input type="" name="">
+	  		<input type="textbox" name="" placeholder="Имя">
+	  		<input type="textbox" name="" placeholder="Фамилия">
 			    <input type="radio" checked="checked">
 			    <span class="checkmark">Мужчина</span>
 			    <input type="radio">
 			    <span class="checkmark">Женщина</span>
-			<h3></h3>
-			<input type="" name="">
-			<h3></h3>
-			<input type="" name="">
-			<input type="" name="">
+			<h3>Дата рождения</h3>
+			<input type="date" name="">
+			<h3>Данные для входа в сервис</h3>
+			<input type="email" name="" placeholder="Email">
+			<input type="textbox" name="" placeholder="Пароль">
 			<input type="checkbox">
+			<button>ПЕРЕЙТИ К ОПЛАТЕ</button>
+			<p>Уже есть аккаунт на Toxin</p>
+			<button>ВОЙТИ</button>
 		</form>
   	</div>
   	<div>
+  		<form>
+  			<h2>Войти</h2>
+  			<input type="email" name="" placeholder="Email">
+  			<input type="textbox" name="" placeholder="Пароль">
+  			<button>ВОЙТИ</button>
+  			<p>Уже есть аккаунт на Toxin</p>
+			<button>СОЗДАТЬ</button>
+  		</form>
   	</div>
   	<div>
+  		<form>
+  			<h3>№</h3>
+  			<h2>888</h2>
+  			<span>ЛЮКС</span>
+  			<h3>прибытие</h3>
+  			<p>9990<b>в сутки</b></p>
+	  		<input type="date" name="calendar" value="2012-06-01"
+		    max="2012-06-04" min="2012-05-29">
+		    <h3>выезд</h3>
+		  		<input type="date" name="calendar" value="2012-06-01"
+		    	max="2012-06-04" min="2012-05-29">
+		    <h3>ГОСТИ</h3>
+		    <select id="cities">
+			   <option value="Naples">Naples</option>
+			   <option value="London">London</option>
+			</select>
+  		</form>
   	</div>
   	<div>
+  		<form>
+  			<img src="images/girl.png" width="189" height="255" alt="lorem">
+  		</form>
   	</div>
   	<div>
+  		<form>
+  			<img src="images/girl.png" width="189" height="255" alt="lorem">
+  			<div class="rating">
+			  <span class="star" data-rating="5"></span>
+			  <span class="star" data-rating="4"></span>
+			  <span class="star" data-rating="3"></span>
+			  <span class="star" data-rating="2"></span>
+			  <span class="star" data-rating="1"></span>
+			</div>
+  		</form>
   	</div>
   	<div>
-  		<input type="date" name="calendar" value="2012-06-01"
-    max="2012-06-04" min="2012-05-29">
-   <input type="submit" value="Очистить">
-   <input type="submit" value="Применить">
+  		<input type="date" name="calendar" value="2012-06-01" max="2012-06-04" min="2012-05-29">
+  		<div class="rating">
+			<span class="star" data-rating="5"></span>
+			<span class="star" data-rating="4"></span>
+			<span class="star" data-rating="3"></span>
+			<span class="star" data-rating="2"></span>
+			<span class="star" data-rating="1"></span>
+		</div>
+	   <input type="submit" value="Очистить">
+	   <input type="submit" value="Применить">
   	</div>
   </body>
   </html>
