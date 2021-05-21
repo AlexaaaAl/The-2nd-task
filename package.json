@@ -1,0 +1,24 @@
+{
+  "name": "the-2nd-task",
+  "version": "1.0.0",
+  "description": "bew project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexaaaAl/The-2nd-task.git"
+  },
+  "keywords": [
+    "Metalamp",
+    "2nd",
+    "task"
+  ],
+  "author": "Alexa Julai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexaaaAl/The-2nd-task/issues"
+  },
+  "homepage": "https://github.com/AlexaaaAl/The-2nd-task#readme"
+}
